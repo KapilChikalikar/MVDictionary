@@ -4,7 +4,7 @@
 •	Visual studio 2022 community edition
 
 •	.net core 6.0
-
+![Alt text](https://github.com/KapilChikalikar/MVDictionary/blob/master/Screenshot%202023-07-02%20125142.jpg)
 **The console app is developed in visual studio 2022**
 
 **Steps to build the console application**
