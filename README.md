@@ -12,5 +12,6 @@
 2.	Ensure the target framework is .Net 6.0 
 3.	Press F5 or click the Run button in VS 2022 IDE
    ![Alt text](https://github.com/KapilChikalikar/MVDictionary/blob/master/Screenshot%202023-07-02%20123537.jpg)
-5.	The console window appears  
-6.	Enter the command to perform the dictionary operations
+4.	The console window appears  
+5.	Enter the command to perform the dictionary operations
+   ![Alt text](https://github.com/KapilChikalikar/MVDictionary/blob/master/Screenshot%202023-07-02%20124541.jpg)
