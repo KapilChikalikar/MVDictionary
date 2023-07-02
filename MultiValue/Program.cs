@@ -30,13 +30,13 @@ namespace MultiValue
             {
                 Console.Write("\tEnter a command : ");
                 string? inputCmd = Console.ReadLine();
-                if (!string.IsNullOrEmpty(inputCmd))
+                if (!string.IsNullOrEmpty(inputCmd))    //validate input is not blank/empty
                 {
                     int itemCount = 1;
                     string[] inputArgs = inputCmd.Split(new char[0], StringSplitOptions.RemoveEmptyEntries);  //handle whitespaces split into array of characters that delimit the substrings and using the split option remove empty entries
-                    string argCmd = inputArgs[0].ToString();
-                    string argKey = inputArgs.Count() > 1 ? inputArgs[1].ToString() : string.Empty;
-                    string argMember = inputArgs.Count() == 3 ? inputArgs[2].ToString() : string.Empty;
+                    string argCmd = inputArgs[0].ToString();    //Store the first argument as command entered
+                    string argKey = inputArgs.Count() > 1 ? inputArgs[1].ToString() : string.Empty; //second argument is key
+                    string argMember = inputArgs.Count() == 3 ? inputArgs[2].ToString() : string.Empty; //In case third argument exist store it as a member for the key
                     switch (argCmd.ToUpper())
                     {
                         case nameof(Command.KEYS):  //Nameof is evaluated at compile time, simply to a string that matches the (unqualified) name of the given variable, type, or member.
